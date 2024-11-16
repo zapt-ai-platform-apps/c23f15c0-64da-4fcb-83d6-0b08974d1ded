@@ -1,0 +1,30 @@
+{
+  "name": "solidjs-vite-tailwind-vercel",
+  "version": "1.0.0",
+  "description": "SolidJS app with Vite, Tailwind, and Vercel serverless function",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.22",
+    "drizzle-orm": "^0.33.0",
+    "@neondatabase/serverless": "^0.9.5",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/auth-ui-solid": "^0.3.8",
+    "@zapt/zapt-js": "^1.0.5",
+    "solid-markdown": "^2.0.13",
+    "@sentry/browser": "^8.35.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7",
+    "vite-plugin-solid": "^2.10.2",
+    "@sentry/node": "^8.35.0",
+    "dotenv": "^16.3.1"
+  }
+}
